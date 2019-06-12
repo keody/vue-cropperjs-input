@@ -9,7 +9,7 @@
     "move"
   ],
   "scripts": {
-    "build": "babel -d dist VueCropperInput.js --no-comments"
+    "build": "babel -d dist VueCropperInput.js -w"
   },
   "author": {
     "name": "Kin Basco",
