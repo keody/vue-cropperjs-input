@@ -1,0 +1,36 @@
+{
+  "name": "vue-cropperjs-input",
+  "version": "1.0.0",
+  "description": "Image input component vue package using cropperjs",
+  "main": "dist/VueCropperInput.js",
+  "keywords": [
+    "image",
+    "crop",
+    "move"
+  ],
+  "scripts": {
+    "build": "babel -d dist VueCropperInput.js --no-comments"
+  },
+  "author": {
+    "name": "Kin Basco",
+    "email": "freepeace13@gmail.com",
+    "url": "https://github.com/freepeace13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keody/vue-cropperjs-input.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keody/vue-cropperjs-input/issues"
+  },
+  "homepage": "https://github.com/keody/vue-cropperjs-input#readme",
+  "dependencies": {
+    "cropperjs": "^1.5.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
